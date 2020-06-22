@@ -1,0 +1,467 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+}
+.page{
+	width: 100%;
+	height: 100vh;
+}
+
+#intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #F9EBEA;
+
+}
+
+ li{
+	display: inline;
+padding: 18px 40px 15px 40px;
+font-family: 'Raleway', sans-serif;
+}
+
+ li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #F9EBEA;
+}
+
+nav{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin-bottom: 0;
+	margin-top: 0;
+	position: fixed;
+	border-bottom: ridge 2px #F9EBEA;
+background-color: #D98880;
+
+}
+
+#intro h1{
+	font-size: 50px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+#intro h3{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#quote_about{
+	font-size: 20px;
+	margin-bottom: 100px;
+	font-family: 'Dancing Script', cursive;
+}
+
+#about{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #F9EBEA;
+	color: #000000; 
+}
+
+#image_about{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 140px;
+
+}
+
+#image_about img{
+	width: 400px;
+	height: 600px;
+	padding-top: 0px;
+	border-radius: 5px;
+box-shadow: 3px 3px 3px #1A5276;
+
+}
+
+#text_about{
+margin-left: 200px;
+margin-top: 50px;
+margin-right: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: 1.5rem;
+font-family: 'Raleway', sans-serif;
+}
+
+#formal_and_floral{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	background-color: #F9EBEA;
+}
+
+.formal_floral img{
+	width: 350px;
+	height: 500px;
+	margin-top: 100px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px  #933724;
+}
+
+
+
+.text_formal_floral{
+	font-size: 1.4rem;
+	margin-top: 200px;
+	color: #381812;
+}
+
+.text_formal_floral h2{
+	font-size: 40px;
+	font-family: 'Cinzel', serif;
+}
+
+ .p1{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+ .p2{
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	}
+
+#text_formal{
+text-align: right;
+}
+
+#text_floral{
+	text-align: left;
+}
+
+#heels{
+	position: relative;
+	background-color: #F9EBEA;
+}
+
+#quote_heel{
+	text-align: center;
+	margin-top: 0;
+	font-size: 20px;
+	font-family: 'Dancing Script', cursive;
+}
+
+#heels img{
+	width: 50%;
+	height: 70%;
+	margin-top: 200px;
+	margin-left: 200px;
+box-shadow: 2px 5px 2px #969449;
+}
+
+#text_heels{
+	position: absolute;
+	top: 150px;
+	right: 300px;
+	font-size: 1.5rem;
+}
+
+#text_heels p{
+	font-family: 'Raleway', sans-serif;
+}
+#text_heels h2{
+font-family: 'Cinzel', serif;
+}
+
+#sneaker_and_neutral{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	background-color: #F9EBEA;
+}
+
+.sneaker_neutral img{
+	width: 350px;
+	height: 500px;
+	margin-top: 100px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px  #933724;
+
+}
+
+#image_sneaker{
+	margin-left: 0px;
+}
+
+
+
+.text_sneaker_neutral{
+	font-size: 1.4rem;
+	margin-top: 200px;
+	color: #381812;
+}
+
+.text_sneaker_neutral h2{
+	font-size: 40px;
+	font-family: 'Cinzel', serif;
+}
+
+
+
+#text_sneaker{
+text-align: right;
+margin-right: 0px;
+width: 340px;
+}
+
+#text_neutral{
+	text-align: left;
+}
+
+#categories{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #F9EBEA;
+	flex-wrap: wrap;
+}
+
+
+
+.category{
+  margin-top: 40px;
+  margin-left: 0px;
+  text-align: center;
+  border-radius: 2px;
+  margin-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-right: 30px;
+  width: 250px;
+  height: 570px;
+	  box-shadow: 0 0 4px #6A106E;
+
+}
+
+.category h3{
+	border-bottom: dashed 2px;
+	margin-left: 20px;
+	font-size: 22px;
+	font-family: 'Cinzel', serif;
+}
+
+.category p{
+	display: block;
+	position: center;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.category ul{
+	  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#Flats{
+	background-image: linear-gradient(35deg, rgba(222, 254, 189, 0.6) , rgba(178, 231, 230, 0.5)), url(https://images.unsplash.com/photo-1559504344-33abd17324d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#Flats:hover {
+	background-image: linear-gradient(35deg, rgba(222, 254, 189, 0.4) , rgba(178, 231, 230, 0.4)), url(https://images.unsplash.com/photo-1559504344-33abd17324d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+
+#category_heels{
+	background-image: linear-gradient(35deg, rgba(231, 178, 238, 0.6) , rgba(236, 233, 139, 0.5)), url(https://images.unsplash.com/photo-1515651673377-6abc94e6e889?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#category_heels:hover {
+	background-image: linear-gradient(35deg, rgba(231, 178, 238, 0.4) , rgba(236, 233, 139, 0.4)), url(https://images.unsplash.com/photo-1515651673377-6abc94e6e889?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#boots{
+	background-image: linear-gradient(35deg, rgba(222, 254, 189, 0.6) , rgba(178, 231, 230, 0.5)), url(https://images.unsplash.com/photo-1578100596537-e1ff0ca79904?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#boots:hover {
+	background-image: linear-gradient(35deg, rgba(222, 254, 189, 0.4) , rgba(178, 231, 230, 0.4)), url(https://images.unsplash.com/photo-1578100596537-e1ff0ca79904?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#sport{
+	background-image: linear-gradient(35deg, rgba(231, 178, 238, 0.6) , rgba(236, 233, 139, 0.5)), url(https://images.unsplash.com/photo-1585591359088-e144e8a61170?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#sport:hover {
+	background-image: linear-gradient(35deg, rgba(231, 178, 238, 0.4) , rgba(236, 233, 139, 0.4)), url(https://images.unsplash.com/photo-1585591359088-e144e8a61170?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+#shop{
+	/*background-image: linear-gradient(35deg, rgba(231, 178, 238, 0.8) , rgba(236, 233, 139, 0.9)), url(https://images.pexels.com/photos/291762/pexels-photo-291762.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70rem;*/
+	background-color: #F9EBEA;
+}
+
+#shop a{
+text-decoration: none;
+color: #FFFFFF;
+}
+
+#shop h1{
+	text-align: center;
+margin-top: 0px;
+margin-bottom: 60px;
+font-size: 50px;
+	font-family: 'Cinzel', serif;
+}
+
+#products{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+margin-top: 20px;
+margin-left: 100px;
+}
+
+
+.product{
+	margin-left: 70px;
+	margin-right: 70px;
+	border: solid 1px;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #D98880;
+	color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px #D98880 ;
+
+}
+
+.image_product img{
+	width: 170px;
+	height: 190px;
+}
+
+.description{
+	line-height: 15px;
+	font-family: 'Vollkorn', serif;
+}
+#signup{
+	
+	background-color: #F9EBEA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	padding-top: 200px;
+	padding-right: 500px;
+	padding-left: 500px;
+	
+	text-align: left;
+}
+
+form label{
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2rem;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+input{
+padding: 5px;
+border: 1px solid #922C10;
+	border-radius: 0.18rem;
+	transition: border-color 0.5s ease-in-out, box-shadow 0.15s ease-in-out;
+	font-family: 'Raleway', sans-serif;
+}
+
+input:focus{
+	border-color: #F4ED10;
+	box-shadow: 0rem 0rem 0rem 0.1rem #980905;
+}
+
+form button{
+	margin-top: 20px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+form p{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color:  #D98880;
+	font-family: 'Raleway', sans-serif;
+}
+
+footer p{
+	margin: 30px;
+	
+}
+
+@media(max-width: 1500px){
+	#text_about{
+		font-size: 15px;
+		margin-left: 100px;
+		margin-bottom: 100px;
+	}
+	#intro h1{
+		font-size: 30px;
+	}
+	#image_about img{
+		width: 280px;
+		height: 400px;
+	}
+	.formal_floral img{
+	width: 200px;
+	height: 300px;
+}
+.text_formal_floral h2{
+	font-size: 20px;
+	font-family: 'Cinzel', serif;
+}
+
+ .p1{
+	font-size: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+ .p2{
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	}
+	.sneaker_neutral img{
+	width: 200px;
+	height: 300px;
+}
+
+.text_sneaker_neutral h2{
+	font-size: 20px;
+	}
+
+}
