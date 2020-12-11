@@ -1,4 +1,13 @@
-# My-first-github-project
-Front-end design for an online shopping website of a shoe brand.
-This website is not mobile responsive. 
-It is designed only as a desktop version.
+# MYRA
+INTRODUCTION- The Project includes the frontend of an online shopping platform for a dummy footwear brand-MYRA.
+
+FEATURES-
+	Introduction of MYRA COLLECTION
+	Introduction of different varieties of footwear available.
+	Distribution of categories.
+	Part from where you can start your shopping.
+	At last, Login or Signup
+
+LANGUAGES & TOOLS-
+	HTML
+	CSS
